@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Youtube Clone</title>
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <header class="header">
+      <div class="left">
+        <img class="hamburger" src="images/icons/hamburger-menu.svg">
+        <img class="youtube-logo" src="images/icons/youtube-logo.svg">
+      </div>
+
+      <div class="mid">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="images/icons/search.svg">
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="images/icons/voice-search-icon.svg">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+
+      <div class="right">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="images/icons/upload.svg">
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="youtube-apps-container">
+          <img class="youtube-apps-icon" src="images/icons/youtube-apps.svg">
+          <div class="tooltip">Apps</div>
+        </div>
+        <div class ="notification-icon-container">
+          <img class="notifications-icon" src="images/icons/notifications.svg">
+          <div class="notification-count">9</div>
+          <div class="tooltip">Notifications</div>
+        </div>
+        <img class="user-pic" src="images/icons/user-profilepic.jpg">
+      </div>
+
+    </header>
+    <nav class="side-bar">
+      <div class="sidebar-link">
+        <img src="images/icons/home-icon.svg">
+        <div>
+          Home
+        </div>
+      </div>
+      <div class="sidebar-link">
+        <img src="images/icons/explore-icon.svg">
+        <div>
+          Explore
+        </div>
+      </div>
+      <div class="sidebar-link">
+        <img src="images/icons/subscriptions-icon.svg">
+        <div>
+          Subscriptions
+        </div>
+      </div>
+      <div class="sidebar-link">
+        <img src="images/icons/originals-icon.svg">
+        <div>
+          Originals
+        </div>
+      </div>
+      <div class="sidebar-link">
+        <img src="images/icons/youtube-music-icon.svg">
+        <div>
+          Youtube Music
+        </div>
+      </div>
+      <div class="sidebar-link">
+        <img src="images/icons/library-icon.svg">
+        <div>
+          Library
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="video-grid">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="images/image1.webp">
+            <div class="video-time">1:30</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-profile">
+              <img class="profile-picture" src="images/image1-channel.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                belki 🖤
+              </p>
+              <p class="video-author">
+                Ladiff
+              </p>
+              <p class="video-stats">
+                136K views &#183; 3 days ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="images/image2.webp">
+            <div class="video-time">18:45</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-profile">
+              <img class="profile-picture" src="images/image2-channel.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                $2,000 vs $20 Bodybuilder!
+              </p>
+              <p class="video-author">
+                Will Tennyson
+              </p>
+              <p class="video-stats">
+                1M views &#183; 9 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="images/image3.webp">
+            <div class="video-time">3:13</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-profile">
+              <img class="profile-picture" src="images/image3-channel.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Stockfish 14 vs Chess.com [Maximum (3200) Level 25]
+              </p>
+              <p class="video-author">
+                Xeronity
+              </p>
+              <p class="video-stats">
+                2.5M views &#183; 1 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="images/image4.webp">
+            <div class="video-time">9:17</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-profile">
+              <img class="profile-picture" src="images/image4-channel.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                How 500 Pounds Of Lamb Barbacoa Is Cooked Every Weekend In Texcoco, Mexico | Big Batches
+              </p>
+              <p class="video-author">
+                Insider Food
+              </p>
+              <p class="video-stats">
+                1.5M views &#183; 6 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="images/image5.webp">
+            <div class="video-time">9:18</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-profile">
+              <img class="profile-picture" src="images/image5-channel.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Giant meat! Sumo wrestler’s cutlet bowl - Katsudon - Japanese street food
+              </p>
+              <p class="video-author">
+                MOGUMOGU - Food Entertainment - モグモグ
+              </p>
+              <p class="video-stats">
+                3.5M views &#183; 11 days ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="images/image6.webp">
+            <div class="video-time">2:54</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-profile">
+              <img class="profile-picture" src="images/image6-channel.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                LEARN CSS VARIABLES IN 3 MINUTES
+              </p>
+              <p class="video-author">
+                Coderbug
+              </p>
+              <p class="video-stats">
+                1.9K views &#183; 2 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
