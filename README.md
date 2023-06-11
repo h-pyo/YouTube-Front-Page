@@ -1,3 +1,1 @@
-# YouTube-Front-Page
-
-Practice creating YouTube front page with HTML and CSS following lessons from SuperSimpleDev
+# YouTube Front Page Clone
